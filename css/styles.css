@@ -148,6 +148,12 @@ body {
 .hero {
   background: var(--brand-color);
   padding: 188px 0;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(/images/peopleoffice.jpg);
+  background-position: center;
 }
 .hero-title {
   color: var(--color-text);
@@ -186,6 +192,16 @@ body {
 /**------Feature-----**/
 .feature {
   padding: 120px 0;
+}
+.feature-block {
+  width: 264px;
+  height: 112px;
+  border-radius: 4px;
+  background: var(--cloud, #f4f4fd);
+  margin-bottom: 8px;
+}
+.feature-icon {
+  margin: 24px 100px;
 }
 .feature-title {
   color: var(--brand-color);
