@@ -268,18 +268,12 @@ body {
 }
 
 /**-----Section 4 Team ------**/
-.team-blcok {
-}
 .team-list-block {
   display: flex;
   gap: 24px;
   justify-content: center;
   align-items: center;
   margin-top: 8px;
-}
-.team-block-item {
-  width: 40px;
-  height: 40px;
 }
 .team-block-link {
   width: 40px;
@@ -323,32 +317,28 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   margin: 0 auto;
-
   margin-bottom: 72px;
   text-align: center;
 }
 .team-names {
   color: var(--brand-color);
   font-size: 20px;
-
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
-
   text-align: center;
   margin-bottom: 8px;
-
   text-align: center;
 }
 .team-jobs {
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: center;
-
   margin: 0 auto;
 }
 .container-names {
-  padding: 32px 16px;
+  padding-bottom: 32px;
+  padding-top: 8px;
 }
 
 /**--------FILTRES--------**/
@@ -472,17 +462,6 @@ body {
   letter-spacing: 0.02em;
   max-width: 264px;
 }
-.footer-text-text {
-  color: #fff;
-  font-family: Roboto;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-}
-.footer-item {
-}
 .footer-link {
   width: 40px;
   height: 40px;
@@ -496,10 +475,47 @@ body {
   fill: #f4f4fd;
 }
 .footer-container {
+}
+.footer-list {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  justify-content: center;
+}
+.footer-media-text {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 16px;
 }
-.footer-list {
-}
+
+/*<div class="footer-container">
+        <p class="footer-text-text">Social Media</p>
+            </div>
+    <div class="footer-container container"> 
+
+        <div class="footer-container"><ul class="footer-list list"></div>
+        <div class="footer-container">
+            <li class="footer-item"><a class="footer-link"><svg class="footer-icon" width="24" height="24">
+                <use href="/images/icons.svg#icon-instagram"></use>
+            </svg></a></li></div>
+            <div class="footer-container">
+            <li class="footer-item"><a class="footer-link"><svg class="footer-icon" width="24" height="24">
+                <use href="/images/icons.svg#icon-twitter"></use>
+            </svg></a></li></div>
+            <div class="footer-container">
+            <li class="footer-item"><a class="footer-link"><svg class="footer-icon" width="24" height="24">
+                <use href="/images/icons.svg#icon-facebook"></use>
+            </svg></a></li></div>
+            <div class="footer-container">
+            <li class="footer-item"><a class="footer-link"><svg class="footer-icon" width="24" height="24">
+                <use href="/images/icons.svg#icon-linkedin"></use>
+            </svg></a></li></div> 
+        </ul>
+        </div>*/
