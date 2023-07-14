@@ -472,3 +472,34 @@ body {
   letter-spacing: 0.02em;
   max-width: 264px;
 }
+.footer-text-text {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.footer-item {
+}
+.footer-link {
+  width: 40px;
+  height: 40px;
+  background-color: #4d5ae5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+.footer-icon {
+  fill: #f4f4fd;
+}
+.footer-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+.footer-list {
+}
