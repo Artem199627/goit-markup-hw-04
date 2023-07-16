@@ -178,6 +178,7 @@ body {
   max-width: 1440px;
   background-repeat: no-repeat;
   background-size: cover;
+  margin: auto;
 }
 .hero-title {
   color: var(--color-text);
@@ -362,6 +363,7 @@ body {
   letter-spacing: 0.02em;
   text-align: center;
   margin: 0 auto;
+  margin-bottom: 8px;
 }
 
 /**--------FILTRES--------**/
