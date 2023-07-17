@@ -173,7 +173,7 @@ body {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(/images/peopleoffice.jpg);
+    url(../images/people-office.jpg);
   background-position: center;
   max-width: 1440px;
   background-repeat: no-repeat;
@@ -312,7 +312,7 @@ body {
   fill: #f4f4fd;
 }
 .team-block-link:hover,
-.team-blcok-link:focus {
+.team-block-link:focus {
   background-color: #404bbf;
 }
 .team {
@@ -644,14 +644,13 @@ body {
   visibility: hidden;
   pointer-events: none;
 }
-.modal-close-btn:hover {
-  background-color: #404bbf;
-  border: none;
-}
+.modal-close-btn:hover,
 .modal-close-btn:focus {
   background-color: #404bbf;
   border: none;
 }
-.modal-close-btn:is(:hover, :focus) .modal-icon {
+
+.modal-close-btn:hover .modal-icon,
+.modal-close-btn:focus .modal-icon {
   fill: #ffffff;
 }
